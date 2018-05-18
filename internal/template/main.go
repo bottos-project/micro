@@ -5,7 +5,7 @@ var (
 
 import (
 	"github.com/micro/go-log"
-	"github.com/micro/go-micro"
+	"github.com/bottos-project/go-micro"
 	"{{.Dir}}/handler"
 	"{{.Dir}}/subscriber"
 )
@@ -37,7 +37,7 @@ func main() {
 
 import (
 	"github.com/micro/go-log"
-	"github.com/micro/go-micro"
+	"github.com/bottos-project/go-micro"
 	"{{.Dir}}/handler"
 	"{{.Dir}}/subscriber"
 
@@ -74,7 +74,7 @@ func main() {
 import (
 	"github.com/micro/go-log"
 
-	"github.com/micro/go-micro"
+	"github.com/bottos-project/go-micro"
 	"{{.Dir}}/handler"
 	"{{.Dir}}/client"
 

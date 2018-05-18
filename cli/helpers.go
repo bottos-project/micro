@@ -8,9 +8,9 @@ import (
 	"time"
 
 	"github.com/micro/cli"
-	"github.com/micro/go-micro/client"
-	"github.com/micro/go-micro/cmd"
-	clic "github.com/micro/micro/internal/command/cli"
+	"github.com/bottos-project/go-micro/client"
+	"github.com/bottos-project/go-micro/cmd"
+	clic "github.com/bottos-project/micro/internal/command/cli"
 )
 
 type helper func(*cli.Context, []string)

@@ -19,11 +19,11 @@ import (
 	"github.com/micro/go-api/router"
 	"github.com/micro/go-api/server"
 	"github.com/micro/go-log"
-	"github.com/micro/go-micro"
-	"github.com/micro/micro/internal/handler"
-	"github.com/micro/micro/internal/helper"
-	"github.com/micro/micro/internal/stats"
-	"github.com/micro/micro/plugin"
+	"github.com/bottos-project/go-micro"
+	"github.com/bottos-project/micro/internal/handler"
+	"github.com/bottos-project/micro/internal/helper"
+	"github.com/bottos-project/micro/internal/stats"
+	"github.com/bottos-project/micro/plugin"
 )
 
 var (

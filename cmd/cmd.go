@@ -4,14 +4,14 @@ import (
 	"strings"
 
 	ccli "github.com/micro/cli"
-	"github.com/micro/go-micro/cmd"
-	"github.com/micro/micro/api"
-	"github.com/micro/micro/bot"
-	"github.com/micro/micro/cli"
-	"github.com/micro/micro/new"
-	"github.com/micro/micro/plugin"
-	"github.com/micro/micro/proxy"
-	"github.com/micro/micro/web"
+	"github.com/bottos-project/go-micro/cmd"
+	"github.com/bottos-project/micro/api"
+	"github.com/bottos-project/micro/bot"
+	"github.com/bottos-project/micro/cli"
+	"github.com/bottos-project/micro/new"
+	"github.com/bottos-project/micro/plugin"
+	"github.com/bottos-project/micro/proxy"
+	"github.com/bottos-project/micro/web"
 )
 
 var (

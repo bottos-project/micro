@@ -12,11 +12,11 @@ import (
 	"time"
 
 	"github.com/micro/cli"
-	"github.com/micro/go-micro/client"
-	"github.com/micro/go-micro/cmd"
-	"github.com/micro/go-micro/registry"
+	"github.com/bottos-project/go-micro/client"
+	"github.com/bottos-project/go-micro/cmd"
+	"github.com/bottos-project/go-micro/registry"
 
-	proto "github.com/micro/go-micro/server/debug/proto"
+	proto "github.com/bottos-project/go-micro/server/debug/proto"
 
 	"github.com/serenize/snaker"
 )

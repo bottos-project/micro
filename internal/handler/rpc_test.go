@@ -9,12 +9,12 @@ import (
 	"net/http/httptest"
 	"testing"
 
-	"github.com/micro/go-micro/client"
-	"github.com/micro/go-micro/cmd"
-	"github.com/micro/go-micro/metadata"
-	rmock "github.com/micro/go-micro/registry/mock"
-	"github.com/micro/go-micro/selector"
-	"github.com/micro/go-micro/server"
+	"github.com/bottos-project/go-micro/client"
+	"github.com/bottos-project/go-micro/cmd"
+	"github.com/bottos-project/go-micro/metadata"
+	rmock "github.com/bottos-project/go-micro/registry/mock"
+	"github.com/bottos-project/go-micro/selector"
+	"github.com/bottos-project/go-micro/server"
 )
 
 type TestHandler struct {

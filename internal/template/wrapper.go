@@ -6,8 +6,8 @@ var (
 import (
 	"context"
 
-	"github.com/micro/go-micro"
-	"github.com/micro/go-micro/server"
+	"github.com/bottos-project/go-micro"
+	"github.com/bottos-project/go-micro/server"
 	example "github.com/micro/examples/template/srv/proto/example"
 )
 

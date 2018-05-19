@@ -117,7 +117,7 @@ import (
 
 	"{{.Dir}}/client"
 	"github.com/bottos-project/go-micro/errors"
-	api "github.com/micro/go-api/proto"
+	api "github.com/bottos-project/go-api/proto"
 	example "github.com/micro/examples/template/srv/proto/example"
 )
 

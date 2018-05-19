@@ -3,17 +3,17 @@ package handler
 import (
 	"net/http"
 
-	"github.com/micro/go-api"
-	"github.com/micro/go-api/handler"
-	"github.com/micro/go-api/handler/event"
-	"github.com/micro/go-api/router"
+	"github.com/bottos-project/go-api"
+	"github.com/bottos-project/go-api/handler"
+	"github.com/bottos-project/go-api/handler/event"
+	"github.com/bottos-project/go-api/router"
 	"github.com/bottos-project/go-micro/errors"
 
 	// TODO: only import handler package
-	aapi "github.com/micro/go-api/handler/api"
-	ahttp "github.com/micro/go-api/handler/http"
-	arpc "github.com/micro/go-api/handler/rpc"
-	aweb "github.com/micro/go-api/handler/web"
+	aapi "github.com/bottos-project/go-api/handler/api"
+	ahttp "github.com/bottos-project/go-api/handler/http"
+	arpc "github.com/bottos-project/go-api/handler/rpc"
+	aweb "github.com/bottos-project/go-api/handler/web"
 )
 
 type metaHandler struct {

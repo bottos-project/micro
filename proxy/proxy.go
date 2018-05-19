@@ -9,7 +9,7 @@ import (
 
 	"github.com/gorilla/mux"
 	"github.com/micro/cli"
-	"github.com/micro/go-api/server"
+	"github.com/bottos-project/go-api/server"
 	"github.com/micro/go-log"
 	"github.com/bottos-project/go-micro"
 	"github.com/bottos-project/micro/internal/handler"
@@ -17,9 +17,9 @@ import (
 	"github.com/bottos-project/micro/internal/stats"
 	"github.com/bottos-project/micro/plugin"
 
-	ahandler "github.com/micro/go-api/handler"
-	abroker "github.com/micro/go-api/handler/broker"
-	aregistry "github.com/micro/go-api/handler/registry"
+	ahandler "github.com/bottos-project/go-api/handler"
+	abroker "github.com/bottos-project/go-api/handler/broker"
+	aregistry "github.com/bottos-project/go-api/handler/registry"
 )
 
 type srv struct {

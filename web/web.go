@@ -14,7 +14,7 @@ import (
 
 	"github.com/gorilla/mux"
 	"github.com/micro/cli"
-	"github.com/micro/go-api/server"
+	"github.com/bottos-project/go-api/server"
 	"github.com/micro/go-log"
 	"github.com/bottos-project/go-micro"
 	"github.com/bottos-project/go-micro/cmd"
